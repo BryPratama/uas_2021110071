@@ -18,4 +18,5 @@ Route::get('/', [Controller::class, 'index'])->name('Home');
 Route::get('/shop', [Controller::class, 'shop'])->name('Shop');
 Route::get('/transaksi', [Controller::class, 'transaksi'])->name('Transaksi');
 Route::get('/contact', [Controller::class, 'contact'])->name('Contact');
+Route::get('/checkout', [Controller::class, 'checkout'])->name('checkout');
 
