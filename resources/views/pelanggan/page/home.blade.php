@@ -1,7 +1,7 @@
 @extends('pelanggan.layout.index')
 
 @section('content')
-<h4 class="mt-5">Available Items</h4>
+<h4 class="mt-5">Item Terbaru</h4>
 <div class="content mt-5 d-flex flex-wrap gap-4">
     <div class="card" style="width:220px;">
         <div class="card-header m-auto" style="border-radius:5px; height: 180px;">
