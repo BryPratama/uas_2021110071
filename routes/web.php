@@ -20,3 +20,10 @@ Route::get('/transaksi', [Controller::class, 'transaksi'])->name('Transaksi');
 Route::get('/contact', [Controller::class, 'contact'])->name('Contact');
 Route::get('/checkout', [Controller::class, 'checkout'])->name('checkout');
 
+Route::get('/admin', [Controller::class, 'admin'])->name('admin');
+Route::get('/admin/dashboard', [Controller::class, 'admin'])->name('admin');
+Route::get('/admin/product', [Controller::class, 'product'])->name('product');
+Route::get('/admin/user_management', [Controller::class, 'userManagement'])->name('userManagement');
+Route::get('/admin/report', [Controller::class, 'report'])->name('report');
+
+

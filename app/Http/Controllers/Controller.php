@@ -40,4 +40,34 @@ class Controller extends BaseController
             'title'=>'Checkout',
         ]);
     }
+
+
+    public function admin()
+    {
+        return view('admin.page.dashboard',[
+            'name' => "Dashboard",
+            'title'=> 'Admin Dashboard',
+        ]);
+    }
+    public function product()
+    {
+        return view('admin.page.product',[
+            'name' => "Product",
+            'title'=> 'Admin Product',
+        ]);
+    }
+    public function userManagement()
+    {
+        return view('admin.page.user',[
+            'name' => "User Management",
+            'title'=> 'Admin User Management',
+        ]);
+    }
+    public function report()
+    {
+        return view('admin.page.report',[
+            'name' => "Report",
+            'title'=> 'Admin Report',
+        ]);
+    }
 }
