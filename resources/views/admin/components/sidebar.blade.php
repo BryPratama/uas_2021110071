@@ -13,31 +13,31 @@
                 </a>
             </li>
             <li class="navbar-item rounded {{ Request::path() === 'admin/product' ? 'bg-info' : '' }} ">
-                <a href="product" class="navbar-link">
+                <a href="product" class="">
                     <div class="d-flex gap-3">
                         <span class="material-icons">inventory</span>
                         <p class="m-0 p-0">Product</p>
                     </div>
                 </a>
             </li>
-            <li class="navbar-item rounded {{ Request::path() === 'admin/user_management' ? 'bg-info' : '' }} ">
-                <a href="user_management" class="navbar-link">
-                    <div class="d-flex gap-3">
-                        <span class="material-icons">people_alt</span>
-                        <p class="m-0 p-0">User Management</p>
-                    </div>
-                </a>
-            </li>
-            <li class="navbar-item rounded {{ Request::path() === 'admin/report' ? 'bg-info' : '' }} ">>
-                <a href="report" class="navbar-link">
+            <li class="navbar-item rounded {{ Request::path() === 'admin/report' ? 'bg-info' : '' }} ">
+                <a href="report" class="">
                     <div class="d-flex gap-3">
                         <span class="material-icons">analytics</span>
                         <p class="m-0 p-0">Report</p>
                     </div>
                 </a>
             </li>
-            <li class="navbar-item">>
-                <a href="#" class="navbar-link">
+            <li class="navbar-item rounded {{ Request::path() === 'admin/user_management' ? 'bg-info' : '' }} ">
+                <a href="user_management" class="">
+                    <div class="d-flex gap-3">
+                        <span class="material-icons">people_alt</span>
+                        <p class="m-0 p-0">User Management</p>
+                    </div>
+                </a>
+            </li>
+            <li class="navbar-item">
+                <a href="logout" class="">
                     <div class="d-flex gap-3">
                         <span class="material-icons">logout</span>
                         <p class="m-0 p-0">Logout</p>

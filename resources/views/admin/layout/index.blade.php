@@ -22,14 +22,12 @@
 </head>
 
 <body>
+    @include('admin.components.sidebar')
     <main>
-        <div class="row">
-            <div class="col-sm-3">
-                @include('admin.components.sidebar')
-            </div>
-            <div class="col-sm-8 mt-2">
+        <div style="margin-left: 280px; width:82%; margin-top: 10px;">
+            @include('admin.components.navbar')
+            <div class="mt-2"
                 <section>
-                    @include('admin.components.navbar')
                     <article>
                         @yield('content')
                     </article>
@@ -37,9 +35,6 @@
             </div>
         </div>
     </main>
-
-    @include('pelanggan.modal.loginpelanggan')
-    @include('pelanggan.modal.registerpelanggan')
 
 </body>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"

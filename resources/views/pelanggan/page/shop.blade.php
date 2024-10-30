@@ -66,7 +66,7 @@
                                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                     data-bs-target="#flush-collapseThree" aria-expanded="false"
                                     aria-controls="flush-collapseThree">
-                                    Lot Box
+                                    RLC
                                 </button>
                             </h2>
                             <div id="flush-collapseThree" class="accordion-collapse collapse"
@@ -75,13 +75,13 @@
                                     <div class="accordion-body p-0">
                                         <div class="d-flex flex-column gap-4">
                                             <a href="#" class="page-link">
-                                                <i class="fas fa-plus"></i>Lot Box A 2024
+                                                <i class="fas fa-plus"></i>RLC JDM
                                             </a>
                                             <a href="#" class="page-link">
-                                                <i class="fas fa-plus"></i>Lot Box B 2024
+                                                <i class="fas fa-plus"></i>RLC European
                                             </a>
                                             <a href="#" class="page-link">
-                                                <i class="fas fa-plus"></i>Lot Box C 2024
+                                                <i class="fas fa-plus"></i>RLC American
                                             </a>
                                         </div>
                                     </div>
